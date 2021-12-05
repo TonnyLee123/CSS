@@ -33,3 +33,26 @@ p {
   color: red;
 }
 ```
+### by class (_._)
+相同class，但指定不同tag
+```css
+<style>
+p.center {
+  text-align: center;
+  color: red;
+}
+
+p.large {
+  font-size: 300%;
+}
+</style>
+</head>
+<body>
+
+<h1 class="center">This heading will not be affected</h1>
+<p class="center">This paragraph will be red and center-aligned.</p>
+
+<!--多重class-->
+<p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
+
+```
