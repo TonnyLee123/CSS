@@ -89,3 +89,25 @@ h1, h2, p {
   color: red;
 }
 ```
+
+### 7. _::before
+Insert some text before the content of each speccify element(tag)
+```css
+
+<!--新增content(Read this -) before tag p-->
+p::before {
+  content: "Read this -";
+}
+
+<h1>Demo of the ::before selector</h1>
+<p>My name is Donald</p>
+<p>I live in Ducksburg</p>
+
+```
+### 8. _::after
+Insert some text after the content of each speccify element(tag)
+```css
+p::after { 
+  content: " - Remember this";
+}
+```
