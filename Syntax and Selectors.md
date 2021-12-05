@@ -9,14 +9,14 @@
 - Pseudo-elements selectors (select and style a part of an element)
 - Attribute selectors (select elements based on an attribute or attribute value)
 
-### by name (p, a, ...)
+### 1. by element name (p, a, ...)
 ```css
 p {
   text-align: center;
   color: red;
 }
 ```
-### by id (#)
+### 2. by id (#)
 ```css
 #para1 {
   text-align: center;
@@ -26,14 +26,14 @@ p {
 <p id="para1">Hello World!</p>
 ```
 
-### by class (.)
+### 3. by class (.)
 ```css
 .center {
   text-align: center;
   color: red;
 }
 ```
-### by element class (_._)
+### 4. by element class (_._)
 相同class，但指定不同tag
 ```css
 <style>
@@ -56,7 +56,7 @@ p.large {
 <p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
 
 ```
-### Universal Selector (*)
+### 5. Universal Selector (*)
 selects **all** HTML elements on the page.
 
 ```css
@@ -65,7 +65,7 @@ selects **all** HTML elements on the page.
   color: blue;
 }
 ```
-### Grouping Selector
+### 6. Grouping Selector
 ```css
 h1 {
   text-align: center;
