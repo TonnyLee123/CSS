@@ -33,7 +33,7 @@ p {
   color: red;
 }
 ```
-### by class (_._)
+### by element class (_._)
 相同class，但指定不同tag
 ```css
 <style>
@@ -55,4 +55,37 @@ p.large {
 <!--多重class-->
 <p class="center large">This paragraph will be red, center-aligned, and in a large font-size.</p> 
 
+```
+### Universal Selector (*)
+selects **all** HTML elements on the page.
+
+```css
+* {
+  text-align: center;
+  color: blue;
+}
+```
+### Grouping Selector
+```css
+h1 {
+  text-align: center;
+  color: red;
+}
+
+h2 {
+  text-align: center;
+  color: red;
+}
+
+p {
+  text-align: center;
+  color: red;
+}
+```
+當h1, h2, p 有相同style時，可以改寫成以下方式
+```css
+h1, h2, p {
+  text-align: center;
+  color: red;
+}
 ```
