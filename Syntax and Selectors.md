@@ -111,3 +111,27 @@ p::after {
   content: " - Remember this";
 }
 ```
+### 9. :root
+- 最多的應用多是搭配 CSS 變數
+- 建立變數
+```css
+1. 整個頁面中都可以使用這個變數(:root)。
+2. --csscoke-red 變數名稱 ( --作為開頭)
+
+:root {
+	--csscoke-red: #f00;
+}
+--------------------------------------
+1. 某個區域中使用
+.section-item {
+	--csscoke-title-red: #f00;
+}
+```
+- 套用變數
+```
+屬性值:var(變數名稱)
+
+.section-item {
+	color: var( --csscoke-red );
+}
+```
