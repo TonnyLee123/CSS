@@ -1,30 +1,23 @@
-###  Position
+##  Position [來源](https://www.w3schools.com/css/css_positioning.asp)
 - Specify the type of positioning method used for an element (static, relative, fixed, absolute or sticky).
-- 1. static (default.)
-- 2. not affected by the top, bottom, left, and right properties.
-- 3. not positioned in any special way; it is always positioned according to the normal flow of the page
-```
-position: static;
-```
 
-2. relative
-- relative to its normal position.
 
-Setting the top, right, bottom, and left properties. 
-Other content will not be adjusted to fit into any gap left by the element.
+### 1. static (default.)
+- The position cannot be adjusted.
+- 
+### 2. relative
+- Relative to its normal position.
+- Setting the top, right, bottom, and left properties. 
 ```
 position: relative;
 left: 20px;
 ```
 
-3. fixed
-- positioned relative to the **viewport**, which means it always stays in the **same place** even if the page is scrolled. 
-A fixed element does not leave a gap in the page where it would normally have been located.
-```
-```
-4. absolute
-is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
+### 3. fixed
+- Stays in the **same place** even if the page is scrolled. 
 
-However; if an absolute positioned element has no positioned ancestors, it uses the document body, and moves along with page scrolling.
+### 4. absolute
+- positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).
 
-Note: Absolute positioned elements are removed from the normal flow, and can overlap elements.
+### 5. sticky
+- toggles between **relative** and **fixed**, depending on the scroll position.
