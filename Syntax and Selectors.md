@@ -1,3 +1,6 @@
+<img src = 'https://www.w3schools.com/css/img_selector.gif'>
+
+
 # CSS Selectors
 - select the HTML element(s) you want to style.
 
@@ -9,7 +12,7 @@
 - Pseudo-elements selectors (select and style a part of an element)
 - Attribute selectors (select elements based on an attribute or attribute value)
 
-### 1. by element name (p, a, ...)
+### 1. by tag (p, a, ...)
 ```css
 p {
   text-align: center;
@@ -32,6 +35,8 @@ p {
   text-align: center;
   color: red;
 }
+
+<h1 class="center">Red</h1>
 ```
 ### 4. by element class (_._)
 相同class，但指定不同tag
