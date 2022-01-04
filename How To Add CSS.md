@@ -24,3 +24,8 @@ body {
 ```html
 <h1 style="color:blue;text-align:center;">This is a heading</h1>
 ```
+
+# Comment
+```
+/* This is a single-line comment */
+```
