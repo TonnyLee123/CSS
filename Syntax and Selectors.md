@@ -38,7 +38,7 @@ p {
 
 <h1 class="center">Red</h1>
 ```
-### 4. by element class (_._)
+### 4. by tag and class (_._)
 相同class，但指定不同tag
 ```css
 <style>
@@ -51,8 +51,6 @@ p.large {
   font-size: 300%;
 }
 </style>
-</head>
-<body>
 
 <h1 class="center">This heading will not be affected</h1>
 <p class="center">This paragraph will be red and center-aligned.</p>
