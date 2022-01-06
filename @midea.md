@@ -14,3 +14,5 @@ Use media queries to specify that certain styles are only for printed documents 
 - Defines the maximum width of an element.
 - Prevents the value of the width property from becoming larger than max-width.
 - If the content is larger than the maximum width, it will automatically change the height of the element.
+
+https://www.w3schools.com/cssref/css3_pr_mediaquery.asp
