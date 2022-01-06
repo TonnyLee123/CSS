@@ -113,6 +113,14 @@ Insert some text after the content of each speccify element(tag)
 p::after { 
   content: " - Remember this";
 }
+
+/*style the inserted content*/
+p::after {
+  content: " - Remember this";
+  background-color: yellow;
+  color: red;
+  font-weight: bold;
+}
 ```
 ### 9. :root
 - 最多的應用多是搭配 CSS 變數
