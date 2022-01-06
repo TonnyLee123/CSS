@@ -107,7 +107,7 @@ p::before {
 <p>I live in Ducksburg</p>
 
 ```
-### 8. _::after
+### 8.<a href = 'https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_after'> _::after</a>
 Insert some text after the content of each speccify element(tag)
 ```css
 p::after { 
