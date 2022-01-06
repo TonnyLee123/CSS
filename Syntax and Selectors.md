@@ -93,7 +93,7 @@ h1, h2, p {
 }
 ```
 
-### 7. _::before
+### 7. ::before
 Insert some text before the content of each speccify element(tag)
 ```css
 
@@ -107,7 +107,7 @@ p::before {
 <p>I live in Ducksburg</p>
 
 ```
-### 8.<a href = 'https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_after'> _::after</a>
+### 8.<a href = 'https://www.w3schools.com/cssref/tryit.asp?filename=trycss_sel_after'> ::after</a>
 Insert some text after the content of each speccify element(tag)
 ```css
 p::after { 
