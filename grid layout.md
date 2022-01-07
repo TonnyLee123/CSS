@@ -15,25 +15,28 @@ grid-template-rows: 80px 200px;
 [來源1](https://www.youtube.com/watch?v=lI81W0A-GUc)
 [來源2](https://www.w3schools.com/css/css_grid.asp)
 
-透過表格方式來布置元素位置。  
-```
+透過表格方式來布置元素位置。
 
+```
 <style>
+/*設定一個container*/
 .grid-container {
-  display: grid; /*用grid來顯示*/
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
+  display: grid; /*設定成 grid 模式*/
+  grid-template-columns: auto auto auto; /*column數量及寬度(3個, 等寬)*/
+  background-color: #2196F3; /*大背景顏色*/
+  padding: 20px;/*裡面整體表格與container間的距離*/
 }
+
+/*設定裡面的元素*/
 .grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /*單個元素背景顏色*/
+  border: 2px solid rgba(0, 0, 0, 0.8); /*單個元素的邊框*/
+  padding: 20px; /*元素內容與邊框之間的距離*/
+  font-size: 30px; /*字體*/
+  text-align: center; /*裡面的字置中*/
 }
 </style>
-</head>
+
 <body>
 
 
@@ -89,4 +92,16 @@ grid-template-rows: 80px 200px;
 ```
 ## 2.3 The grid-area Property
 - Shorthand property for the grid-row-start, grid-column-start, grid-row-end and the grid-column-end properties.
-![照片](./'擷取.PNG')
+- Assign names to grid items.
+!(照片)[./'擷取.PNG']
+```css
+.item8 {
+  grid-area: 1 / 2 / 5 / 6;
+}
+```
+
+## 2.3 grid-template-areas
+- Use the **grid-area** to name grid items.
+- https://www.w3schools.com/cssref/tryit.asp?filename=trycss_grid-template-areas2
+- https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-area_named3
+- https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-area_named
