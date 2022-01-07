@@ -1,4 +1,4 @@
-# Grid Container
+# 1. Grid Container
 ## grid-template-columns Property
 -  Define the **number of columns** 
 -  Define the **width of each column**
@@ -53,8 +53,31 @@ grid-template-rows: 80px 200px;
 </html>
 
 ```
+# 2. Grid Item
+- By default, a container has **one grid item** for each column and row.
+## 2.1 grid-column Property
+- Define where the item will start, and where the item will end.
+- Note: The grid-column property is a shorthand property for the **grid-column-start** and the **grid-column-end** properties.
+- line numbers,  keyword "span" 
 
-
+```css
+/*line numbers*/
+.item1 {
+  grid-column: 1 / 3;
+}
+/*grid-column-start: 1;*/
+/*grid-column-end: 3;*/
+/*-----------------------*/
+.item1 {
+  grid-column: 1 / span 2;
+}
+```
+## 2.2 grid-row Property
+```css
+.item1 {
+  grid-row: 1 / 4;
+}
+```
 # Grid Lines
 <img src = 'https://www.w3schools.com/css/grid_lines.png'>
 
