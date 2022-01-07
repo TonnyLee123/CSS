@@ -1,3 +1,17 @@
+# Grid Container
+## grid-template-columns Property
+-  Define the **number of columns** 
+-  Define the **width of each column**
+```css
+/*4個 column 等寬*/
+grid-template-columns: auto auto auto auto;
+/*分別不同寬*/
+grid-template-columns: 80px 200px auto 40px;
+```
+## grid-template-rows Property
+```
+grid-template-rows: 80px 200px;
+```
 [來源1](https://www.youtube.com/watch?v=lI81W0A-GUc)
 [來源2](https://www.w3schools.com/css/css_grid.asp)
 
