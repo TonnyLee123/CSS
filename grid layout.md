@@ -39,3 +39,14 @@
 </html>
 
 ```
+
+
+# Grid Lines
+<img src = 'https://www.w3schools.com/css/grid_lines.png'>
+
+```
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+```
