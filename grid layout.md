@@ -89,4 +89,4 @@ grid-template-rows: 80px 200px;
 ```
 ## 2.3 The grid-area Property
 - Shorthand property for the grid-row-start, grid-column-start, grid-row-end and the grid-column-end properties.
-<img src = 'https://www.w3schools.com/css/tryit.asp?filename=trycss_grid_grid-area1'>
+<img src = '擷取.PNG'>
