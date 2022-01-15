@@ -8,7 +8,7 @@ The direct child elements of a flex container automatically becomes flexible (fl
 ```
 
 # Flex Items
-```css
+```html
 <div class="flex-container">
   <div>1</div>
   <div>2</div>
